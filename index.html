@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+
+<head>
+    <link href="css/styles.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <input id="input1" placeholder="# of items in DB" />
+    <input id="input2" placeholder="# of DOM els (min 20)" />
+
+    <button id="start-btn" onclick="start()">
+        Start Infinite Scroll
+    </button>
+
+    <div id="container">
+        <ul class="cat-list" stle="top-padding: 0px; bottom-padding: 0px">
+        </ul>
+    </div>
+
+    <script src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

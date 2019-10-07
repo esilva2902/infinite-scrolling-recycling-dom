@@ -1,0 +1,12 @@
+.cat-list {
+    overflow: scroll;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .cat-tile {
+    background-color: grey;
+    margin: 10px 0;
+    height: 150px;
+    width: 100%;
+  }
